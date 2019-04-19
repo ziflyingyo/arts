@@ -1,2 +1,7 @@
 # arts
-ARTS 是陈皓在极客时间专栏发起的一个活动，通过每周实现一个算法(Algorithm),一篇英文文章的研究 (Review)，一个技术的技巧(Tip)，和一篇文章的分享(Share)。
+每周完成一个ARTS：（也就是 Algorithm、Review、Tip、Share 简称ARTS）
+
+1.每周至少做一个 leetcode 的算法题
+2.阅读并点评至少一篇英文技术文章
+3.学习至少一个技术技巧
+4.分享一篇有观点和思考的技术文章
