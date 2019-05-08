@@ -71,7 +71,7 @@ MySQL5.7后，MySQL团队为了提高数据库sql执行性能，去掉了group b
 按column1分组取到column2的最大值，构成一个子句；用原始表inner join子句后再group bycolumn1。SQL如下：
 
 ```sql
-select a.* from tablename a inner join (select column1,max(column2) as max_colum2 from tablename group by column1) as b on a.column1=b.column1 and a.column2=b.max_column2 order by a.column1;
+select a.* from tablename a inner join (select column1,max(column2) as max_colum2 from tablename group by column1) as b on a.column1=b.column1 and a.column2=b.max_column2 group by a.column1;
 ```
 
 #### 参考链接
